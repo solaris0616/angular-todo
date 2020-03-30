@@ -1,0 +1,6 @@
+<div *ngFor="let item of items">
+    <p>
+        {{item.body}}
+        <button (click)="markAsFinish(item.id)">Done!</button>
+    </p>
+</div>
